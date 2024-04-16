@@ -14,7 +14,7 @@ public class WebSocketConfiguration implements WebSocketMessageBrokerConfigurer 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/gameplay")
-                .setAllowedOrigins("http://ec2-34-235-110-160.compute-1.amazonaws.com", "http://34.235.110.160")
+                .setAllowedOrigins("http://ec2-34-235-110-160.compute-1.amazonaws.com", "http://3.212.95.0")
                 .withSockJS();
     }
 
