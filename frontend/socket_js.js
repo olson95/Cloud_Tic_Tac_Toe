@@ -1,4 +1,4 @@
-const url = 'http://ec2-34-235-110-160.compute-1.amazonaws.com/:8080';
+const url = 'http://ec2-23-20-28-126.compute-1.amazonaws.com/:8080';
 let stompClient;
 let gameId;
 let playerType;
