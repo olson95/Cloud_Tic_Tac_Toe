@@ -23,6 +23,11 @@ public class GameController {
     private final GameService gameService;
     private final SimpMessagingTemplate simpMessagingTemplate;
 
+    @GetMapping("/start")
+    public ResponseEntity<Void> start() {
+        return ResponseEntity.ok().build();
+    }
+
     @PostMapping("/start")
     public ResponseEntity<Game> start(@RequestBody Player player){
         log.info("Starting game for player {}", player);
